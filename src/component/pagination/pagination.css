@@ -1,0 +1,107 @@
+.Pagination {
+  border: 1px solid lightgray;
+  padding: 11px;
+  margin: 6.5% auto;
+  width: 70%;
+  height: 332px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  border-radius: 8px;
+}
+.button-number-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 8%;
+}
+.button-number-section button {
+  width: 38px;
+  height: 38px;
+  font-weight: 700;
+  border-radius: 50%;
+  font-size: 16px;
+  border: 1px solid #e7c65f;
+}
+.button-number-section .active {
+  background-color: #e7c65f;
+}
+.product-section {
+  margin: 95px 0px;
+}
+.image-section {
+  position: absolute;
+  top: 81px;
+  left: 200px;
+}
+.image-section img {
+  width: 100%;
+  height: 193px;
+  object-fit: contain;
+}
+.content-section {
+  position: absolute;
+  top: 81px;
+  left: 450px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+  margin: 28px 0px;
+}
+.Pname-section > h3 > p,
+.product-name-true > h3 > p,
+.pprice-section > h3 > p {
+  display: inline-block;
+  font-weight: initial;
+}
+
+.product-price-true > h3 > p {
+  display: inline-block;
+  font-weight: 700;
+}
+p,
+h3 {
+  margin: 0;
+}
+
+.button-prev-Nxt-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.button-prev-Nxt-section button {
+  width: 26%;
+  border: 1px solid #e7c65f;
+  border-radius: 14px;
+  padding: 9px;
+  background-color: transparent;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 1s;
+}
+.button-prev-Nxt-section button:hover {
+  background-color: #e7c65f;
+  transition: 1s;
+}
+.product-name-true,
+.product-ingredients-true,
+.product-price-true {
+  color: #000000a8 !important;
+}
+.img > img {
+  filter: grayscale(1);
+  width: 100%;
+  height: 193px;
+  object-fit: contain;
+}
+.img {
+  position: absolute;
+  top: 81px;
+  left: 200px;
+}
