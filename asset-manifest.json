@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-menucard-pagination-state/static/css/main.424b1988.css",
+    "main.js": "/react-menucard-pagination-state/static/js/main.876909ba.js",
+    "index.html": "/react-menucard-pagination-state/index.html",
+    "main.424b1988.css.map": "/react-menucard-pagination-state/static/css/main.424b1988.css.map",
+    "main.876909ba.js.map": "/react-menucard-pagination-state/static/js/main.876909ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.424b1988.css",
+    "static/js/main.876909ba.js"
+  ]
+}
